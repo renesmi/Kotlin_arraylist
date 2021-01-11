@@ -114,6 +114,7 @@ class MainActivity : AppCompatActivity() {
                 val decode =ImageDecoder.createSource(
                     this.contentResolver,
                     Uri.fromFile(file)
+                    
                 )
                 bitmap = ImageDecoder.decodeBitmap(decode)
                 iv_profile.setImageBitmap(bitmap)
