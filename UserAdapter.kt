@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
-import android.widget.TextView
+import android.widget.TextView 
 
 class UserAdapter(val context:Context,val Userlist: ArrayList<User>) : BaseAdapter()       //baseadpetr 상속 받는다.
 {
